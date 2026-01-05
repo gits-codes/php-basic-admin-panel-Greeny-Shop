@@ -23,7 +23,6 @@ sessions, form handling, shopping cart logic, and database operations without us
 - **Site Settings** – Configure site-wide settings
 - **User Module**:
   - Register / Login / Logout
-  - Profile management
   - Shopping cart with secure session handling
 
 Other key features:
@@ -41,14 +40,13 @@ Other key features:
 1. Users can browse products without logging in.
 2. Selecting a product redirects to login if not logged in.
 3. Users can register if they don’t have an account.
-4. After login, users can add products to the cart.
-5. Multiple items can be added to the cart.
-6. During checkout:
+4. Multiple items can be added to the cart.
+5. During checkout:
    - Prices are calculated
    - Shipping cost is added
    - Total displayed
-7. Users provide shipping address, phone number, and payment info (simulated).
-8. After submission, users see an order confirmation page with purchased items, shipping address, and order date.
+6. Users provide shipping address, phone number, and payment info (simulated).
+7. After submission, users see an order confirmation page with purchased items, shipping address, and order date.
 
 ---
 
@@ -115,7 +113,6 @@ language #FA - Persian - زبان فارسی
 - **تنظیمات سایت** – تنظیمات کلی سایت
 - **ماژول کاربران**:
   - ثبت‌نام / ورود / خروج
-  - مدیریت پروفایل
   - سبد خرید با مدیریت امن سشن
 
 امکانات دیگر:
@@ -133,14 +130,13 @@ language #FA - Persian - زبان فارسی
 1. کاربران بدون ورود به سایت می‌توانند محصولات را مشاهده کنند.
 2. انتخاب محصول، در صورت عدم ورود، به صفحه ورود هدایت می‌کند.
 3. کاربر می‌تواند ثبت‌نام کند.
-4. پس از ورود، امکان افزودن محصول به سبد وجود دارد.
-5. امکان افزودن چند محصول به سبد وجود دارد.
-6. در مرحله تسویه:
+4. امکان افزودن چند محصول به سبد وجود دارد.
+5. در مرحله تسویه:
    - قیمت‌ها محاسبه می‌شوند
    - هزینه ارسال اضافه می‌شود
    - مجموع نهایی نمایش داده می‌شود
-7. کاربر اطلاعات زیر را وارد می‌کند: آدرس، شماره تماس و اطلاعات کارت خرید (فقط برای ثبت سفارش، پرداخت واقعی انجام نمی‌شود)
-8. پس از ثبت سفارش، صفحه تایید سفارش نمایش داده می‌شود.
+6. کاربر اطلاعات زیر را وارد می‌کند: آدرس، شماره تماس و اطلاعات کارت خرید (فقط برای ثبت سفارش، پرداخت واقعی انجام نمی‌شود)
+7. پس از ثبت سفارش، صفحه تایید سفارش نمایش داده می‌شود.
 
 ---
 
