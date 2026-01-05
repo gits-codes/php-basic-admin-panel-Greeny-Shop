@@ -7,42 +7,48 @@ sessions, form handling, shopping cart logic, and database operations without us
 
 ---
 
-## Project Features
+## Project Modules & Features
 
-- Public product listing without login
-- User authentication system (Register / Login)
-- Shopping cart functionality
-- Ability to add multiple products to the cart
-- Order summary with total price calculation
-- Shipping cost calculation
-- Checkout process
-- Order confirmation page displaying:
-  - Purchased products
-  - Total price
-  - Shipping address
-  - Order date
+- **Dashboard** – Admin overview panel
+- **Menu Management** – Create and edit site menus
+- **Product Categories** – Manage categories for products
+- **Product Management** – Add, edit, and delete products
+- **Page Management** – Add and edit static pages
+- **News Categories** – Manage categories for news/blog posts
+- **News Management** – Add, edit, and delete news articles
+- **Widgets below slider** – Customize homepage widgets
+- **User Orders** – View and manage user orders
+- **Image Upload** – Upload product or page images
+- **Contacts** – Manage messages from contact forms
+- **Site Settings** – Configure site-wide settings
+- **User Module**:
+  - Register / Login / Logout
+  - Profile management
+  - Shopping cart with secure session handling
+
+Other key features:
+
+- Public product listing accessible without login
+- Shopping cart functionality with multiple product addition
+- Order summary with total price and shipping calculation
+- Checkout process with address, phone, and payment info (simulated)
+- Order confirmation page displaying products, total price, shipping address, and order date
 
 ---
 
 ## User Flow
 
-1. Users can browse the website and view all products without logging in.
-2. When selecting a product, the user is redirected to the login page.
-3. If the user does not have an account, they can register through the registration page.
-4. After logging in, users can add products to the shopping cart.
-5. Users can add multiple items to the cart.
+1. Users can browse products without logging in.
+2. Selecting a product redirects to login if not logged in.
+3. Users can register if they don’t have an account.
+4. After login, users can add products to the cart.
+5. Multiple items can be added to the cart.
 6. During checkout:
-   - Product prices are calculated
+   - Prices are calculated
    - Shipping cost is added
-   - The total price is displayed
-7. The user is asked to provide:
-   - Shipping address
-   - Phone number
-   - Payment card information (stored for record purposes only)
-8. After final submission, the user is redirected to an order confirmation page showing:
-   - Ordered products
-   - Registered shipping address
-   - Order date
+   - Total displayed
+7. Users provide shipping address, phone number, and payment info (simulated).
+8. After submission, users see an order confirmation page with purchased items, shipping address, and order date.
 
 ---
 
@@ -69,7 +75,8 @@ sessions, form handling, shopping cart logic, and database operations without us
 
 ## UI Templates
 
-Some UI templates are based on free resources and were customized for this project.
+Some UI templates are based on free resources and were customized for this project.  
+If any template used here belongs to you, I apologize and greatly appreciate your work.
 
 ---
 
@@ -92,42 +99,48 @@ language #FA - Persian - زبان فارسی
 
 ---
 
-## امکانات پروژه
+## ماژول‌ها و امکانات پروژه
 
-- نمایش محصولات برای همه بدون نیاز به لاگین
-- سیستم احراز هویت کاربران (ثبت‌نام / ورود)
-- سبد خرید و مدیریت محصولات انتخابی
-- امکان اضافه کردن چند محصول به سبد خرید
-- محاسبه مجموع قیمت محصولات
-- محاسبه هزینه ارسال
+- **داشبورد** – پنل مدیریت اصلی
+- **مدیریت منو** – ایجاد و ویرایش منوهای سایت
+- **دسته‌بندی محصولات** – مدیریت دسته‌بندی محصولات
+- **مدیریت محصولات** – افزودن، ویرایش و حذف محصولات
+- **مدیریت صفحات** – افزودن و ویرایش صفحات ثابت
+- **دسته‌بندی اخبار** – مدیریت دسته‌بندی اخبار و بلاگ
+- **مدیریت اخبار** – افزودن، ویرایش و حذف اخبار
+- **ویجت‌های زیر اسلایدر** – شخصی‌سازی ویجت‌های صفحه اصلی
+- **سفارشات کاربران** – مشاهده و مدیریت سفارشات
+- **آپلود تصاویر** – بارگذاری تصاویر محصولات یا صفحات
+- **تماس‌ها** – مدیریت پیام‌های فرم تماس
+- **تنظیمات سایت** – تنظیمات کلی سایت
+- **ماژول کاربران**:
+  - ثبت‌نام / ورود / خروج
+  - مدیریت پروفایل
+  - سبد خرید با مدیریت امن سشن
+
+امکانات دیگر:
+
+- نمایش عمومی محصولات بدون نیاز به لاگین
+- سبد خرید با امکان افزودن چند محصول
+- محاسبه مجموع قیمت و هزینه ارسال
 - فرآیند تسویه حساب
-- صفحه تایید سفارش که شامل موارد زیر است:
-  - محصولات خریداری شده
-  - مجموع قیمت
-  - آدرس ارسال
-  - تاریخ سفارش
+- صفحه تایید سفارش شامل محصولات خریداری‌شده، مجموع قیمت، آدرس ارسال و تاریخ سفارش
 
 ---
 
 ## جریان کاربر (User Flow)
 
-1. کاربران می‌توانند سایت را مرور کنند و محصولات را بدون ورود مشاهده کنند.
-2. هنگام انتخاب محصول، کاربر به صفحه ورود هدایت می‌شود.
-3. اگر کاربر حساب کاربری نداشته باشد، می‌تواند از طریق صفحه ثبت‌نام یک حساب بسازد.
-4. پس از ورود، کاربران می‌توانند محصولات را به سبد خرید اضافه کنند.
-5. امکان اضافه کردن چند محصول به سبد وجود دارد.
-6. در فرآیند تسویه حساب:
-   - قیمت محصولات محاسبه می‌شود
+1. کاربران بدون ورود به سایت می‌توانند محصولات را مشاهده کنند.
+2. انتخاب محصول، در صورت عدم ورود، به صفحه ورود هدایت می‌کند.
+3. کاربر می‌تواند ثبت‌نام کند.
+4. پس از ورود، امکان افزودن محصول به سبد وجود دارد.
+5. امکان افزودن چند محصول به سبد وجود دارد.
+6. در مرحله تسویه:
+   - قیمت‌ها محاسبه می‌شوند
    - هزینه ارسال اضافه می‌شود
    - مجموع نهایی نمایش داده می‌شود
-7. از کاربر خواسته می‌شود اطلاعات زیر را وارد کند:
-   - آدرس ارسال
-   - شماره تماس
-   - اطلاعات کارت خرید (فقط برای ثبت سفارش، پرداخت واقعی انجام نمی‌شود)
-8. پس از نهایی شدن سفارش، کاربر به صفحه تایید هدایت می‌شود که شامل:
-   - محصولات سفارش داده شده
-   - آدرس ثبت‌شده
-   - تاریخ سفارش
+7. کاربر اطلاعات زیر را وارد می‌کند: آدرس، شماره تماس و اطلاعات کارت خرید (فقط برای ثبت سفارش، پرداخت واقعی انجام نمی‌شود)
+8. پس از ثبت سفارش، صفحه تایید سفارش نمایش داده می‌شود.
 
 ---
 
@@ -153,7 +166,8 @@ language #FA - Persian - زبان فارسی
 
 ## قالب‌ها و منابع UI
 
-برخی قالب‌های رابط کاربری (UI) از منابع رایگان گرفته شده و برای این پروژه شخصی‌سازی شده‌اند.
+برخی قالب‌های رابط کاربری (UI) از منابع رایگان گرفته شده و برای این پروژه شخصی‌سازی شده‌اند.  
+در صورت استفاده از قالب آماده شما، پوزش می‌طلبم و قدردان اشتراک آن هستم.
 
 ---
 
@@ -165,4 +179,3 @@ language #FA - Persian - زبان فارسی
 4. اجرای پروژه روی سرور محلی مانند XAMPP، WAMP یا Laragon
 +برخی قالب‌های رابط کاربری (UI) از منابع رایگان گرفته شده و برای این پروژه شخصی‌سازی شده‌اند.  
 در صورت استفاده از قالب آماده شما، پوزش می‌طلبم و قدردان اشتراک آن هستم.
-
